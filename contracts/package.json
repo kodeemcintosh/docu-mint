@@ -1,0 +1,31 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hardhat compile",
+    "start": "hardhat node --network localhost",
+    "start:test": "hardhat node --network goerli",
+    "start:prod": "hardhat node --network mainnet",
+    "deploy:lock": "hardhat run --network localhost scripts/deployLock.js",
+    "deploy:lock:test": "hardhat run --network goerli scripts/deployLock.js",
+    "deploy:lock:prod": "hardhat run --network mainnet scripts/deployLock.js",
+    "deploy:ownable": "hardhat run --network localhost scripts/deployOwnable.js",
+    "deploy:ownable:test": "hardhat run --network goerli scripts/deployOwnable.js",
+    "deploy:ownable:prod": "hardhat run --network mainnet scripts/deployOwnable.js",
+    "deploy:token": "hardhat run --network localhost scripts/deployToken.js",
+    "deploy:token:test": "hardhat run --network goerli scripts/deployToken.js",
+    "deploy:token:prod": "hardhat run --network mainnet scripts/deployToken.js",
+    "test": "hardhat test --network localhost"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.9.2",
+    "hardhat": "^2.16.1"
+  },
+  "dependencies": {}
+}
