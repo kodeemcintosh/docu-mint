@@ -46,6 +46,8 @@ yarn-error.log*
 
 # local folder
 local
+.vscode
+.github
 
 # vercel
 .vercel

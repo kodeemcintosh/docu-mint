@@ -1,5 +1,5 @@
 {
-  "name": "next-js-boilerplate",
+  "name": "docu-mint-dapp",
   "version": "3.11.0",
   "scripts": {
     "dev": "next dev",
@@ -120,5 +120,5 @@
       "@semantic-release/github"
     ]
   },
-  "author": "Ixartz (https://github.com/ixartz)"
+  "author": "Kodee McIntosh (https://github.com/kodeemcintosh)"
 }
