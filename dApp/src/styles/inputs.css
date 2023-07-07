@@ -1,0 +1,7 @@
+
+
+form {
+  input, .primary {
+    @apply w-full max-h-18 px-4 py-2 text-sm text-gray-700 bg-white border border-gray-300 rounded-lg shadow-sm appearance-none focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500;
+  }
+}

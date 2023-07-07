@@ -37,8 +37,13 @@
 
     "baseUrl": ".",
     "paths": {
-      "@src": ["src/*"],
-      "@public/*": ["public/*"]
+      "@src": ["./src/*"],
+      "@public/*": ["./public/*"],
+      "@components/*": ["./src/components/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@forms/*": ["./src/forms/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@utils/*": ["./src/utils/*"],
     }
   },
   "exclude": ["./out/**/*", "./node_modules/**/*", "cypress/**/*.ts"],
