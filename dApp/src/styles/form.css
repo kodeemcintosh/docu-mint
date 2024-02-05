@@ -1,0 +1,8 @@
+
+@import './button.css';
+@import './inputs.css';
+
+
+.verticle-divider {
+  @apply flex flex-row w-full px-10 divide-y-2 divide-gray-800;
+}

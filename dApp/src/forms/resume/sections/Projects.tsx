@@ -1,6 +1,3 @@
-
 export const Projects = () => {
-  return (
-    <></>
-  )
-}
+  return <></>;
+};

@@ -8,9 +8,9 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   moduleNameMapper: {
     // Handle module aliases (this will be automatically configured for you soon)
-    '^@/(.*)$': '<rootDir>/src/$1',
+    '^@(.*)$': '<rootDir>/src/$1',
 
-    '^@/public/(.*)$': '<rootDir>/public/$1',
+    '^@public/(.*)$': '<rootDir>/public/$1',
 
     '^__mocks__/(.*)$': '<rootDir>/__mocks__/$1',
   },

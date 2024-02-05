@@ -1,6 +1,3 @@
-
 export const Education = () => {
-  return (
-    <></>
-  )
-}
+  return <></>;
+};

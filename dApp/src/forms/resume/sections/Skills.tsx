@@ -1,6 +1,3 @@
-
 export const Skills = () => {
-  return (
-    <></>
-  )
-}
+  return <></>;
+};

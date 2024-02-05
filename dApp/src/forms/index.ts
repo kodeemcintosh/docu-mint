@@ -1,2 +1,1 @@
-
-export { FormBuilder } from './FormBuilder';
+export { ResumeForm } from './resume';
